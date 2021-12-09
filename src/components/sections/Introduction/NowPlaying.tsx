@@ -16,7 +16,7 @@ export default function NowPlaying(): JSX.Element {
       <a className="mb-4 text-sm group flex items-center space-x-2">
         <SpotifyIcon />
         <span className="transition-opacity duration-300 opacity-70 group-hover:opacity-100">
-          Listening to <b>{status?.spotify?.song}</b> by <b>{status?.spotify?.artist}</b>
+          Listening to <b>{status.spotify?.song}</b> by <b>{status.spotify?.artist}</b>
         </span>
       </a>
     </Link>
