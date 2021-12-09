@@ -1,4 +1,3 @@
-import { NextPage } from 'next'
 import Introduction from '../components/sections/Introduction'
 import Technologies from '../components/sections/Technologies'
 import Contact from '../components/sections/Contact'
