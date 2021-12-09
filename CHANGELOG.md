@@ -1,3 +1,18 @@
+# v1.0.2 (2021-12-09)
+
+### Misc Changes
+
+| Commit | Description |
+| --- | --- |
+| [`9023de4`](https://github.com/saliven/saliven.com/commit/9023de42da7594cdf876cdb009fc3acaf2de06e2) | remove unused import |
+| [`48bd971`](https://github.com/saliven/saliven.com/commit/48bd9714e385da26befe2dce1714655932dc815b) | remove dependabot.yml |
+
+### Dependencies
+
+| Commit | Description |
+| --- | --- |
+| [`1c6111e`](https://github.com/saliven/saliven.com/commit/1c6111e8879aa7309db9b53c596b501e6d971d53) | update some dependencies |
+
 # v1.0.1 (2021-12-09)
 
 ### New Features
