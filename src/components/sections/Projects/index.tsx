@@ -1,13 +1,13 @@
-import notest from '../../../../public/logos/notest.png'
+import dooze from '../../../../public/logos/dooze.png'
 import Project, { ProjectProps } from './Project'
 
 const PROJECTS: ProjectProps[] = [
   {
-    name: 'Notest',
+    name: 'Dooze',
     description: 'Coming soon...',
-    image: notest,
+    image: dooze,
     role: 'Founder',
-    link: 'https://notest.app',
+    link: 'https://dooze.app',
   },
 ]
 
