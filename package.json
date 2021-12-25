@@ -1,7 +1,14 @@
 {
   "name": "saliven.com",
+  "description": "My personal website",
   "version": "1.0.3",
   "private": true,
+  "author": {
+    "email": "s4liven@pm.me",
+    "name": "Saliven",
+    "url": "https://saliven.com"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
