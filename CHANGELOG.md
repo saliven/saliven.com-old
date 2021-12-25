@@ -1,3 +1,8 @@
+# v1.0.4 (2021-12-25)
+
+- Add license and README
+- Add `description`, `author` and `license` to `package.json`
+
 # v1.0.3 (2021-12-25)
 
 Change Notest project to Dooze and update `tailwind.config.js` to tailwind 3
