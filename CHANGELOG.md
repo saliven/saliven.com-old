@@ -1,3 +1,7 @@
+# v1.0.3 (2021-12-25)
+
+Change Notest project to Dooze and update `tailwind.config.js` to tailwind 3
+
 # v1.0.2 (2021-12-09)
 
 ### Misc Changes
