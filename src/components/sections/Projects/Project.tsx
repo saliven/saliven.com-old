@@ -16,7 +16,7 @@ export default function Projects({ name, role, description, link, image }: Proje
       className="hover:bg-dark-100 hover:bg-opacity-60 transition-all duration-300 border border-dark-100 rounded-xl p-5 hover:cursor-pointer"
     >
       <div className="flex items-center space-x-5 border-b border-dark-100 pb-5">
-        <Image className="rounded-lg" height="70" width="70" alt={name} src={image} />
+        <Image className="rounded-lg" placeholder="blur" height="70" width="70" alt={name} src={image} />
         <div>
           <h1 className="flex items-center text-lg font-semibold">
             {name}{' '}
