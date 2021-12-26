@@ -6,7 +6,7 @@ export interface ProjectProps {
   role: string
   description: string
   link?: string
-  image: any
+  image: StaticImageData
 }
 
 export default function Projects({ name, role, description, link, image }: ProjectProps): JSX.Element {
