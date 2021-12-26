@@ -6,6 +6,7 @@ import Contact from '../components/sections/Contact'
 import Footer from '../components/sections/Footer'
 import Projects from '../components/sections/Projects'
 import { PinnedRepo } from '../utils/types'
+import Repositories from '../components/sections/Repositories'
 
 export default function Home({ pinnedRepos }: InferGetServerSidePropsType<typeof getServerSideProps>): JSX.Element {
   return (
@@ -13,6 +14,7 @@ export default function Home({ pinnedRepos }: InferGetServerSidePropsType<typeof
       <Introduction />
       <Contact />
       <Projects />
+      <Repositories repos={pinnedRepos} />
       <Technologies />
       <Footer />
     </div>
