@@ -1,3 +1,8 @@
+# v1.1.0 (2021-12-26)
+
+- Add Repositories section 
+- Some misc changes
+
 # v1.0.4 (2021-12-25)
 
 - Add license and README
