@@ -1,11 +1,11 @@
 import { InferGetServerSidePropsType } from 'next'
+import { PinnedRepo } from '../utils/types'
 import React from 'react'
 import Introduction from '../components/sections/Introduction'
 import Technologies from '../components/sections/Technologies'
 import Contact from '../components/sections/Contact'
 import Footer from '../components/sections/Footer'
 import Projects from '../components/sections/Projects'
-import { PinnedRepo } from '../utils/types'
 import Repositories from '../components/sections/Repositories'
 
 export default function Home({ pinnedRepos }: InferGetServerSidePropsType<typeof getServerSideProps>): JSX.Element {
