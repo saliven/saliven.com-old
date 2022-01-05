@@ -1,3 +1,10 @@
+# v1.1.1 (2022-01-05)
+
+- Change footer design
+- Add responsive design to technologies section
+- Migrate from `yarn` to `pnpm`
+- Change server side data fetching to `getStaticProps`
+
 # v1.1.0 (2021-12-26)
 
 - Add Repositories section 
