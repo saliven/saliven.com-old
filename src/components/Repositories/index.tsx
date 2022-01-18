@@ -1,10 +1,10 @@
 import React from 'react'
-import { PinnedRepo } from '../../../utils/types'
+import { PinnedRepo } from '../../utils/types'
 import Repository from './Repository'
 
 export default function Repositories({ repos }: { repos: PinnedRepo[] }): JSX.Element {
   return (
-    <section className="mt-16">
+    <section className="mb-10">
       <h1 className="text-3xl font-semibold mb-4">
         Repositories <span className="ml-3">📚</span>
       </h1>
