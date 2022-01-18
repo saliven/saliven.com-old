@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import { NextSeo } from 'next-seo'
 import { AppProps } from 'next/app'
 import 'tailwindcss/tailwind.css'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
@@ -17,9 +19,12 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        className="px-10 sm:px-20 md:px-40 xl:px-96 2xl:px-[32rem] flex flex-col min-h-screen"
         transition={{ type: 'tween', ease: 'anticipate', duration: 1 }}
       >
+        <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </motion.div>
     </div>
   )
