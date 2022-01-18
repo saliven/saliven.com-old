@@ -1,9 +1,9 @@
-import TypeScriptIcon from '../../icons/TypeScriptIcon'
-import GraphQLIcon from './../../icons/GraphQLIcon'
-import NextIcon from './../../icons/NextIcon'
-import PostgresIcon from './../../icons/PostgresIcon'
-import ReactIcon from './../../icons/ReactIcon'
-import TailwindIcon from './../../icons/TailwindIcon'
+import TypeScriptIcon from '../icons/TypeScriptIcon'
+import GraphQLIcon from '../icons/GraphQLIcon'
+import NextIcon from '../icons/NextIcon'
+import PostgresIcon from '../icons/PostgresIcon'
+import ReactIcon from '../icons/ReactIcon'
+import TailwindIcon from '../icons/TailwindIcon'
 import Technology, { TechnologyProps } from './Technology'
 
 const TECHNOLOGIES: TechnologyProps[] = [
@@ -46,21 +46,12 @@ const TECHNOLOGIES: TechnologyProps[] = [
   },
 ]
 
-export default function Technologies(): JSX.Element {
+export default function TechnologiesList(): JSX.Element {
   return (
-    <section className="mt-16">
-      <h1 className="text-3xl font-semibold mb-4">
-        Technologies <span className="ml-3">🖥</span>
-      </h1>
-      <p className="opacity-70">
-        I use the latest technologies to develop stable and fast applications. Below you can find a list of my most used
-        technologies.
-      </p>
-      <div className="space-y-8 mt-8">
-        {TECHNOLOGIES.map((technology, idx) => (
-          <Technology key={idx} {...technology} />
-        ))}
-      </div>
-    </section>
+    <div className="space-y-8 mt-8">
+      {TECHNOLOGIES.map((technology, idx) => (
+        <Technology key={idx} {...technology} />
+      ))}
+    </div>
   )
 }

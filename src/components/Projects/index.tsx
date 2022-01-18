@@ -1,4 +1,4 @@
-import dooze from '../../../../public/logos/dooze.png'
+import dooze from '../../../public/logos/dooze.png'
 import Project, { ProjectProps } from './Project'
 
 const PROJECTS: ProjectProps[] = [
@@ -13,7 +13,7 @@ const PROJECTS: ProjectProps[] = [
 
 export default function Projects(): JSX.Element {
   return (
-    <section className="mt-16">
+    <section className="mb-10">
       <h1 className="text-3xl font-semibold mb-4">
         Projects <span className="ml-3">🌍</span>
       </h1>
