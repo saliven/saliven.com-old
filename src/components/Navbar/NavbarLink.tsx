@@ -12,7 +12,7 @@ export default function NavbarLink({
   const router = useRouter()
 
   return (
-    <Link href={destination} prefetch>
+    <Link href={destination}>
       <a
         className={clsx(
           router.pathname === destination ? 'text-white font-semibold' : 'text-zinc-400 hover:text-white'

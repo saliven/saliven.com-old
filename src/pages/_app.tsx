@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
           { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
           { name: 'author', content: 'Saliven (https://saliven.com)' },
         ]}
+        additionalLinkTags={[{ rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }]}
       />
       <motion.div
         initial={{ opacity: 0 }}
