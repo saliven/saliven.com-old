@@ -12,17 +12,17 @@ export default function Footer(): JSX.Element {
       </div>
       <div className="ml-auto flex items-center space-x-5">
         <Link href="https://github.com/saliven">
-          <a target="_blank" className="text-zinc-400 hover:text-white transition-all duration-200">
+          <a rel="noreferrer" target="_blank" className="text-zinc-400 hover:text-white transition-all duration-200">
             <GitHubIcon />
           </a>
         </Link>
         <Link href="https://twitter.com/s4liven">
-          <a target="_blank" className="text-zinc-400 hover:text-white transition-all duration-200">
+          <a rel="noreferrer" target="_blank" className="text-zinc-400 hover:text-white transition-all duration-200">
             <TwitterIcon />
           </a>
         </Link>
         <Link href="https://keybase.io/saliven">
-          <a target="_blank" className="text-zinc-400 hover:text-white transition-all duration-200">
+          <a rel="noreferrer" target="_blank" className="text-zinc-400 hover:text-white transition-all duration-200">
             <KeyIcon />
           </a>
         </Link>
