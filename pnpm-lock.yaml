@@ -22,6 +22,7 @@ specifiers:
   next: 12.0.7
   next-seo: ^4.28.1
   postcss: ^8.4.5
+  preact: ^10.6.4
   prettier: ^2.5.1
   react: 17.0.2
   react-dom: 17.0.2
@@ -35,6 +36,7 @@ dependencies:
   framer-motion: 5.6.0_react-dom@17.0.2+react@17.0.2
   next: 12.0.7_react-dom@17.0.2+react@17.0.2
   next-seo: 4.28.1_d837ce8f3acb2f60f8b7454672a9bcea
+  preact: 10.6.4
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-use-lanyard: 0.1.0_react@17.0.2
@@ -3313,6 +3315,10 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
+
+  /preact/10.6.4:
+    resolution: {integrity: sha512-WyosM7pxGcndU8hY0OQlLd54tOU+qmG45QXj2dAYrL11HoyU/EzOSTlpJsirbBr1QW7lICxSsVJJmcmUglovHQ==}
+    dev: false
 
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
