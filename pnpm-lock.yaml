@@ -20,7 +20,7 @@ specifiers:
   framer-motion: 6.2.8
   husky: ^7.0.4
   next: ^12.1.0
-  next-seo: 5.2.0
+  next-seo: 5.4.0
   postcss: ^8.4.6
   preact: ^10.6.6
   prettier: ^2.5.1
@@ -35,7 +35,7 @@ dependencies:
   copy-text-to-clipboard: 3.0.1
   framer-motion: 6.2.8_react-dom@17.0.2+react@17.0.2
   next: 12.1.0_react-dom@17.0.2+react@17.0.2
-  next-seo: 5.2.0_caa633a00319350dbda42996613fe26c
+  next-seo: 5.4.0_caa633a00319350dbda42996613fe26c
   preact: 10.6.6
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -2345,8 +2345,8 @@ packages:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
 
-  /next-seo/5.2.0_caa633a00319350dbda42996613fe26c:
-    resolution: {integrity: sha512-IJNKzYH4ARKHxN6YTN7AYj3CEpZLpL/o6FlDZqWJ/HaOnpjpvLHpQlI57be/N92iafmYwYE+jOU0SQ6T9DIo/Q==}
+  /next-seo/5.4.0_caa633a00319350dbda42996613fe26c:
+    resolution: {integrity: sha512-R9DhajPwJnR/lsF2hZ8cN8uqr5CVITsRrCG1AF5+ufcaybKYOvnH8sH9MaH4/hpkps3PQ9H71S7J7SPYixAYzQ==}
     peerDependencies:
       next: ^8.1.1-canary.54 || >=9.0.0
       react: '>=16.0.0'
