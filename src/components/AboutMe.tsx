@@ -5,7 +5,7 @@ export default function AboutMe(): JSX.Element {
         About <span className="ml-3">🙋‍♂️</span>
       </h1>
       <p className="text-lg text-zinc-400">
-        Hi, I am Saliven, as I said I am an open-source enthusiast and full stack web developer. I love new technlogies
+        Hi, I am Saliven, as I said I am an open-source enthusiast and full stack web developer. I love new technologies
         and I try to keep up with the trends in the web development industry. Below you can explore my projects and my
         open-source repositories.
       </p>
