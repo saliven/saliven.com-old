@@ -6,7 +6,7 @@ specifiers:
   '@types/lru-cache': 7.6.1
   '@types/node': ^16.11.25
   '@types/react': ^17.0.39
-  '@types/react-dom': 18.0.5
+  '@types/react-dom': 18.0.6
   '@types/tailwindcss': 3.0.10
   '@typescript-eslint/eslint-plugin': ^4.33.0
   '@typescript-eslint/parser': ^4.33.0
@@ -47,7 +47,7 @@ devDependencies:
   '@types/lru-cache': 7.6.1
   '@types/node': 16.11.25
   '@types/react': 17.0.39
-  '@types/react-dom': 18.0.5
+  '@types/react-dom': 18.0.6
   '@types/tailwindcss': 3.0.10
   '@typescript-eslint/eslint-plugin': 4.33.0_e42cabd4cdfc2b5fbf3a7a4537aa5627
   '@typescript-eslint/parser': 4.33.0_eslint@8.17.0+typescript@4.5.5
@@ -487,8 +487,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/18.0.5:
-    resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
+  /@types/react-dom/18.0.6:
+    resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
       '@types/react': 17.0.39
     dev: true
