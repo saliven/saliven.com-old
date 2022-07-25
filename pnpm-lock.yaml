@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
-  '@types/lru-cache': 7.6.1
+  '@types/lru-cache': 7.10.9
   '@types/node': ^16.11.25
   '@types/react': ^17.0.39
   '@types/react-dom': 18.0.6
@@ -44,7 +44,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
-  '@types/lru-cache': 7.6.1
+  '@types/lru-cache': 7.10.9
   '@types/node': 16.11.25
   '@types/react': 17.0.39
   '@types/react-dom': 18.0.6
@@ -510,8 +510,10 @@ packages:
     resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
     dev: true
 
-  /@types/lru-cache/7.6.1:
-    resolution: {integrity: sha512-69x+Dhrm2aShFkTqUuPgUXbKYwvq4FH/DVeeQH7MBfTjbKjPX51NGLERxVV1vf33N71dzLvXCko4OLqRvsq53Q==}
+  /@types/lru-cache/7.10.9:
+    resolution: {integrity: sha512-wrwgkdJ0xr8AbzKhVaRI8SXZN9saapPwwLoydBEr4HqMZET1LUTi1gdoaj82XmRJ9atqN7MtB0aja29iiK+7ag==}
+    dependencies:
+      lru-cache: 6.0.0
     dev: true
 
   /@types/minimist/1.2.2:
