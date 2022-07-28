@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
 import { NextSeo } from 'next-seo'
 import { AppProps } from 'next/app'
-import 'tailwindcss/tailwind.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+
+import 'tailwindcss/tailwind.css'
 
 export default function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
