@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
   '@types/node': ^16.11.25
-  '@types/react': ^17.0.39
+  '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@types/tailwindcss': 3.0.11
   '@typescript-eslint/eslint-plugin': 5.30.7
@@ -44,7 +44,7 @@ devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
   '@types/node': 16.11.25
-  '@types/react': 17.0.39
+  '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@types/tailwindcss': 3.0.11
   '@typescript-eslint/eslint-plugin': 5.30.7_lpvh7i4qm73nis6vojuje77dva
@@ -535,11 +535,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 17.0.39
+      '@types/react': 18.0.21
     dev: true
 
-  /@types/react/17.0.39:
-    resolution: {integrity: sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==}
+  /@types/react/18.0.21:
+    resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
